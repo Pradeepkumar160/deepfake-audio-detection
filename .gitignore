@@ -1,0 +1,52 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Trained model (large binary - exclude from git)
+deepfake_model.pth
+
+# Uploaded & streamed audio (temp files)
+uploads/
+streams/
+
+# Dataset audio files (too large for git)
+dataset/real/*.wav
+dataset/fake/*.wav
+dataset/real/*.mp3
+dataset/fake/*.mp3
+
+# Keep dataset folder structure
+!dataset/real/.gitkeep
+!dataset/fake/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

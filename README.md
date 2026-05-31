@@ -26,7 +26,7 @@ A **production-grade deepfake audio detection platform** that identifies AI-gene
 
 ### ✨ Key Features 
 
-| Feature | Description |
+| Feature | Description | 
 |---|---|
 | 📁 **Upload & Analyze** | Drag-drop any audio file (WAV/MP3/FLAC/OGG/M4A) for instant detection |
 | 🎙️ **Live Stream** | Real-time microphone streaming over WebSocket — results every 2 seconds |
